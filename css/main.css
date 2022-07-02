@@ -51,7 +51,8 @@ line-height: 14px;
 letter-spacing: 1px;
 text-transform: uppercase;
 color: #333333;
-}  
+}   
+
 .header-item-link{ 
 text-decoration: none;
 }
@@ -124,10 +125,15 @@ color: #FFFFFF;
  
 
 .aside-inner{ 
-    
+    background-image: url("../images/bec-1.png"), url("../images/bec-2.png"), url("../images/bec-3.png");  
+    background-position: calc(50% + -700px) calc(0% + 40px), calc(50% + 750px) calc(50% + 110px), 
+     calc(50% + -750px) calc(50% + 500px );
+    background-repeat: no-repeat, no-repeat,no-repeat; 
+    background-size: 402px 300px , 392px 477px,316px 269px;
     margin: 20px 20px;
     background-color: #F8F8F2; 
    
+    
    
 }  
 
@@ -144,7 +150,6 @@ padding: 50px 0;
     font-size: 50px;
     line-height: 59px;
     text-align: center;
-    font-variant: small-caps;
     color: #000000;
 
 } 
@@ -182,4 +187,222 @@ width: 453px;
     font-size: 22px;
     line-height: 34px;
     color: #333333;
+} 
+
+/*------------------------------------------page section---------------------------------*/ 
+
+.page__section{   
+  z-index: 10;
+   margin: 20px; 
+ height: 760px;    
+ background-image: url("../images/Rectangle-bac_2.png");  
+ background-repeat:no-repeat;   
+ background-size: 100%; 
+ background-color: #C99B67; 
+ background-blend-mode: overlay;
+
+
+}
+.page__section__content{ 
+ padding: 50px 0px 80px 0px;
+ text-align: center;
+
+} 
+.page__section__title{  
+    
+     margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+} 
+.page__section__subtitle{ 
+width: 581px;  
+margin: 0 auto;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+} 
+.page__section__list{  
+
+list-style: none; 
+padding-left: 0px;
+display: flex; 
+align-items: center; 
+justify-content: space-between;
+} 
+
+
+.page__section__img{ 
+ width: 430px; 
+ height: 500px; 
+ margin-bottom: 28px; 
+z-index: 3;
+}
+.page__section__items{  
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    font-variant: small-caps;
+    color: #333333;
+} 
+.page__section__text{ 
+ width: 377px; 
+ font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #333333; 
+margin-bottom: 80px; 
+
+
+}   
+  
+
+
+/*------------------------------------section plan--------------------------------------*/ 
+
+.section__plan{  
+ margin: 369px 20px 50px 20px;  
+background-image: url("../images/plan-bec_2.png"),  url("../images/plan-bec_1.png");  
+
+background-repeat: no-repeat,no-repeat,no-repeat; 
+background-size: 232px 189px,100% 100%; 
+background-position: calc(50% + 520px) calc(0% + 80px), center; 
+background-color: #0A775F; 
+}
+.section__plan__content{ 
+padding: 50px 0px 50px 0px;
+background-image: url("../images/bec-img_spa.png"); 
+background-repeat: no-repeat; 
+background-position: calc(0% + 0px) calc(0% + 230px ); 
+background-size: 966px 60px ;
+} 
+.section__plan__title{ 
+    margin-bottom: 160px; 
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+ 
+
+
+.section__plan__list{ 
+ list-style: none; 
+ padding-left: 0px; 
+ display: flex; 
+ align-items: center; 
+ justify-content: space-between; 
+margin-bottom: 60px;
+ 
+} 
+.section__plan__item{ 
+width: 433px; 
+height: 446px; 
+background-color: #F8F8F2; 
+padding: 20px 20px 40px 20px;
+
+} 
+
+.section__plan__nabir{ 
+display: inline-block;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+font-variant: small-caps;
+color: #333333; 
+margin-left: 330px; 
+margin-bottom:45px ;
+} 
+.section__plan__items{  
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    color: #333333;
+} 
+.section__plan__text{ 
+ width: 385px;
+} 
+.section__plan__slogan{ 
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}  
+.section__plan__btn{ 
+text-align: center; 
+
+}
+.section__plan__link{ 
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 1px;
+color: #FFFFFF;   
+    text-decoration: none;
+    display: inline-block;
+    width: 193px;
+    height: 51px; 
+    padding: 16px 24px;
+    background-color: #C99B67;
+    border-radius: 100px; 
+
+
+} 
+
+/*--------------------------------------footer------------------------------------*/ 
+
+.footer{ 
+
+background-image: url("../images/footer-img_bec.png");
+background-repeat: no-repeat; 
+background-size: 100% 100%;  
+
+
+} 
+.footer__title{ 
+ display: flex;  
+ align-items: center;  
+ justify-content: space-between;  
+padding: 65px 0px;
+ margin-bottom: 30px;
+} 
+.footer__img{ 
+width: 235px; 
+height: 24px;
+
+} 
+.footer__list{ 
+display: flex; 
+align-items: center; 
+list-style: none;
+
+} 
+.footer__item{ 
+ margin-right: 40px; 
+
+} 
+.footer__item__link{ 
+ text-decoration: none; 
+ font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #333333;
+} 
+.footer__link{ 
+margin-left:30px ;
+ text-decoration: none;
 }
